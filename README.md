@@ -4,30 +4,30 @@ This is the github repo for UAV-Based Soybean Disease Detection for UAV-Based So
 ```
 Soy_Plant_Final_files/
 ├── CODE/
-│   ├── 01 FPN-RF-soybean.ipynb                          # Proposed FPN + Random Forest model
-│   ├── 02 FPN-SVM-soybean.ipynb                         # Proposed FPN + Support Vector Machine model
-│   ├── 03 FPN-Xgboost-soybean.ipynb                     # Proposed FPN + XGBoost model
-│   ├── 04 FPN-XAI.ipynb                                # Explainable AI analysis (Grad-CAM, Grad-CAM++, LRP)
-│   ├── 05 ablation-only-C3-L-soybean.ipynb             # Ablation study using only C3 features
-│   ├── 06 ablation-only-C4-soybean.ipynb               # Ablation study using only C4 features
-│   ├── 07 ablation-only-C5-L-soybean.ipynb             # Ablation study using only C5 features
-│   ├── 08 ablation-only-RF-soybean.ipynb               # Random Forest without FPN features
-│   ├── 09 ablation-only-SVM-soybean.ipynb              # Support Vector Machine without FPN features
-│   ├── 10 ablation-only-XGBoost-soybean.ipynb          # XGBoost without FPN features
-│   ├── 11 ablation-study-(C3+C4)-L.ipynb               # Combined C3 + C4 feature ablation
-│   ├── 12 ablation-study-(C3+C5)-L.ipynb               # Combined C3 + C5 feature ablation
-│   ├── 13 ablation-study-(C4+C5)-L.ipynb               # Combined C4 + C5 feature ablation
-│   ├── 14 DenseNet201-Indian-UAV.ipynb                 # DenseNet201 baseline on Indian UAV dataset
-│   ├── 15 EfficientNet-B0-Indian-UAV.ipynb             # EfficientNet-B0 baseline on Indian UAV dataset
-│   ├── 16 EfficientNet-B7-Indian-UAV.ipynb             # EfficientNet-B7 baseline on Indian UAV dataset
-│   ├── 17 ResNet50-Indian-UAV.ipynb                    # ResNet50 baseline on Indian UAV dataset
-│   ├── 18 ResNet101-Indian-UAV.ipynb                   # ResNet101 baseline on Indian UAV dataset
-│   ├── 19 VGG16-Indian-UAV.ipynb                       # VGG16 baseline on Indian UAV dataset
-│   ├── 20 VGG19-Soybean-Indian-UAV.ipynb               # VGG19 baseline on Indian UAV dataset
-│   ├── 21 FPN-RF-10C-CrossV.ipynb                      # 10-fold cross-validation on Dataset-1
-│   ├── 22 FPN-RF-Soybean-3-Class.ipynb                 # Three-class soybean disease classification
-│   ├── 23 FPN-RF-Soybean-UAV-Cross-Validation.ipynb    # Cross-validation on the primary soybean UAV dataset
-│   └── 24 MFLOPS-Inference-Time-Indian-UAV.ipynb       # Model complexity, FLOPs and inference time analysis
+│   ├── 01 FPN-RF-soybean.ipynb                         # 01 FPN-RF-soybean: FPN with RF
+│   ├── 02 FPN-SVM-soybean.ipynb                        # 02 FPN-SVM-soybean: FPN with SVM
+│   ├── 03 FPN-Xgboost-soybean.ipynb                    # 03 FPN-Xgboost-soybean: FPN with XGboost
+│   ├── 04 FPN-XAI.ipynb                                # 04 FPN-XAI: Explainable AI analysis (Grad-CAM, Grad-CAM++, LRP)
+│   ├── 05 ablation-only-C3-L-soybean.ipynb             # 05 ablation-only-C3 L-soybean: Ablation study using only C3 Layer
+│   ├── 06 ablation-only-C4-soybean.ipynb               # 06 ablation-only-c4-soybean: Ablation study using only C4 Layer
+│   ├── 07 ablation-only-C5-L-soybean.ipynb             # 07 ablation-only-C5 L-soybean: Ablation study using only C5 Layer
+│   ├── 08 ablation-only-RF-soybean.ipynb               # 08 ablation-only-RF-soybean: Random Forest without FPN Layer
+│   ├── 09 ablation-only-SVM-soybean.ipynb              # 09 ablation-only-SVM-soybean: Support Vector Machine without FPN Layer
+│   ├── 10 ablation-only-XGBoost-soybean.ipynb          # 10 ablation-only-XGBoost-soybean: XGBoost without FPN Layer
+│   ├── 11 ablation-study-(C3+C4)-L.ipynb               # 11 ablation-study-(c3+c4)-L: Combined C3 + C4 Layer
+│   ├── 12 ablation-study-(C3+C5)-L.ipynb               # 12 ablation-study-(C3+C5)L: Combined C3 + C5 Layer
+│   ├── 13 ablation-study-(C4+C5)-L.ipynb               # 13 ablation-study-(c4+c5)-L: Combined C4 + C5 Layer
+│   ├── 14 DenseNet201-Indian-UAV.ipynb                 # 14 densenet201-indian-uav: DenseNet201 baseline on Indian UAV dataset
+│   ├── 15 EfficientNet-B0-Indian-UAV.ipynb             # 15 efficientnet-b0-indian-uav: EfficientNet-B0 baseline on Indian UAV dataset
+│   ├── 16 EfficientNet-B7-Indian-UAV.ipynb             # 16 efficientnetb7-indian-uav: EfficientNet-B7 baseline on Indian UAV dataset
+│   ├── 17 ResNet50-Indian-UAV.ipynb                    # 17 resnet50-indian-uav: ResNet50 baseline on Indian UAV dataset
+│   ├── 18 ResNet101-Indian-UAV.ipynb                   # 18 resnet-101-indian-uav: ResNet101 baseline on Indian UAV dataset
+│   ├── 19 VGG16-Indian-UAV.ipynb                       # 19 vgg16-indian-uav: VGG16 baseline on Indian UAV dataset
+│   ├── 20 VGG19-Soybean-Indian-UAV.ipynb               # 20 vgg19-soybean-indian-uav: VGG19 baseline on Indian UAV dataset
+│   ├── 21 FPN-RF-10C-CrossV.ipynb                      # 21 FPN-RF-10C-CrossV: 10-class-cross-validation 
+│   ├── 22 FPN-RF-Soybean-3-Class.ipynb                 # FPN-RF-Soybean-3-Class: Cross-validation on 3-class
+│   ├── 23 FPN-RF-Soybean-UAV-Cross-Validation.ipynb    # 23 FPN-RF-Soybean-UAV-Cross-Validation: Cross-validation on indian-UAV dataset
+│   └── 24 MFLOPS-Inference-Time-Indian-UAV.ipynb       # 24 MFLOPS-Inference-Time-Indian-UAV: Model complexity, FLOPs and inference time analysis
 │
 └── Figures_png/
     ├── Fig-1.png                # Figure 1: Real time crop health monitoring by UAV
